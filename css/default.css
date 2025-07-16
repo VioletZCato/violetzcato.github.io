@@ -1,0 +1,51 @@
+:root {
+    --color-scheme: dark light;
+    --background-color: dark-light(#000000, #ffffff);
+    --violet: #8000ff;
+    --zara: #ff8000;
+    --cato: #00ff00;
+    --tron: #53B8FF;
+}
+
+h1 {
+    font-size: 5rem; 
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+a {
+    color: var(--tron);
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.violet {
+    color: var(--violet);
+}
+
+.zara {
+    color: var(--zara);
+}
+
+.cato {
+    color: var(--cato);
+}
+
+.tron {
+    color: var(--tron);
+}
