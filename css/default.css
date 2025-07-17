@@ -12,24 +12,24 @@
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 0rem;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-decoration: underline;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
 }
 
@@ -40,8 +40,8 @@ a {
 
 body {
     background-color: var(--background-color);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .violet {
