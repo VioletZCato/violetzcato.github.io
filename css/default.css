@@ -93,3 +93,30 @@ a {
 .sleek {
     font-family: "Lexend Deca", sans-serif;
 }
+
+.first {
+    /* .violet && .program */
+    color: var(--violet);
+    font-family: "Orbitron", sans-serif;
+
+    /* sizing fixes */
+    font-size: 4.45rem;
+}
+
+.middle {
+    /* .zara && .mono */
+    color: var(--zara);
+    font-family: "Cutive Mono", monospace;
+
+    /* sizing fixes */
+    font-size: 5.75rem;
+}
+
+.last {
+    /* .cato && .roman */
+    color: var(--cato);
+    font-family: "EB Garamond", serif;
+
+    /* sizing fixes */
+    font-size: 5rem;
+}
