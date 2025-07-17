@@ -121,6 +121,10 @@ a {
     margin-right: 1rem;
 }
 
+.middledot {
+	font-size: 4.75rem;
+}
+
 .last {
     /* .cato && .roman */
     color: var(--cato);
