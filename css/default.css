@@ -11,6 +11,11 @@
     --old-brown: #a07000;
 }
 
+/* some dummy code so noir can tell there's a dark mode */
+@media (prefers-color-scheme: dark) {
+	:root { --never-used: 0; }
+}
+
 body {
     font-family: "Lexend Deca", sans-serif;
     background-color: var(--background-color);
@@ -101,6 +106,8 @@ a {
 
     /* sizing fixes */
     font-size: 4.45rem;
+
+    margin-right: 1rem;
 }
 
 .middle {
@@ -110,6 +117,8 @@ a {
 
     /* sizing fixes */
     font-size: 5.75rem;
+
+    margin-right: 1rem;
 }
 
 .last {
