@@ -112,6 +112,15 @@ a {
     font-size: 5.75rem;
 }
 
+.dot {
+    /* .zara && .sleek */
+    color: var(--zara);
+    font-family: "Lexend Deca", sans-serif;
+
+    /* sizing fixes */
+    font-size: 5rem;
+}
+
 .last {
     /* .cato && .roman */
     color: var(--cato);
