@@ -15,6 +15,11 @@
     --siniy: #0050ff;
 }
 
+/* some dummy code so noir can tell there's a dark mode */
+@media (prefers-color-scheme: dark) {
+	:root { --never-used: 0; }
+}
+
 body {
     font-family: "Lexend Deca", sans-serif;
     background-color: var(--background-color);
