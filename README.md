@@ -1,2 +1,3 @@
 # violetzcato.github.io
-website repo
+you just lost the game <3
+EoL

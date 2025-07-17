@@ -1,3 +1,5 @@
+/* base */
+
 :root {
     color-scheme: dark light;
     --background-color: light-dark(#ffffff, #000000);
@@ -9,6 +11,8 @@
     --girl-pink: #f4c2c2;
     --enby-green: #3cff6d;
     --old-brown: #a07000;
+    --goluboy: #00aaff;
+    --siniy: #0050ff;
 }
 
 body {
@@ -18,9 +22,10 @@ body {
     margin-right: 15vw;
 }
 
+/* core */
+
 h1 {
     font-size: 5rem;
-    text-align: center;
     margin-top: 1rem;
     margin-bottom: 0rem;
 }
@@ -37,13 +42,9 @@ h3 {
 
 h4 {
     font-size: 1.5rem;
-    font-style: italic;
 }
 
-a {
-    color: var(--tron);
-    text-decoration: underline;
-}
+/* color */
 
 .violet {
     color: var(--violet);
@@ -57,7 +58,7 @@ a {
     color: var(--cato);
 }
 
-.tron {
+.tron { /* and font, in this instance */
     font-family: "Orbitron", sans-serif;
     color: var(--tron);
 }
@@ -78,6 +79,16 @@ a {
     color: var(--old-brown);
 }
 
+.goluboy { /* currently unused */
+    color: var(--goluboy);
+}
+
+.siniy {
+    color: var(--cobalt);
+}
+
+/* font */
+
 .program {
     font-family: "Orbitron", sans-serif;
 }
@@ -93,6 +104,27 @@ a {
 .sleek {
     font-family: "Lexend Deca", sans-serif;
 }
+
+/* text style */
+
+.centered {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.olink { /* obvious link */
+    color: var(--tron);
+    text-decoration: underline;
+}
+
+/* name title */
 
 .first {
     /* .violet && .program */
