@@ -47,6 +47,11 @@ h4 {
     font-size: 1.5rem;
 }
 
+a { /* use olink for [more] traditional formatting */
+    color: inherit;
+    text-decoration: none;
+}
+
 /* color */
 
 .violet {
