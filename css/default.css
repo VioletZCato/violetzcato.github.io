@@ -1,5 +1,5 @@
 :root {
-    --color-scheme: dark light;
+    color-scheme: dark light;
     --background-color: light-dark(#ffffff, #000000);
     --violet: #8000ff;
     --zara: #ff8000;
