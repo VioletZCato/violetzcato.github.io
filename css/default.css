@@ -1,22 +1,27 @@
 :root {
     --color-scheme: dark light;
-    --background-color: dark-light(#000000, #ffffff);
+    --background-color: light-dark(#ffffff, #000000);
     --violet: #8000ff;
     --zara: #ff8000;
     --cato: #00ff00;
     --tron: #53B8FF;
+    --boy-blue: #21cae0;
+    --girl-pink: #f4c2c2;
+    --enby-green: #3cff6d;
+    --old-brown: #a07000;
 }
 
 h1 {
-    font-size: 5rem; 
+    font-size: 16rem;
+    text-align: center; 
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 8rem;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     text-decoration: underline;
 }
 
@@ -48,4 +53,20 @@ body {
 
 .tron {
     color: var(--tron);
+}
+
+.boy-blue {
+    color: var(--boy-blue);
+}
+
+.girl-pink {
+    color: var(--girl-pink);
+}
+
+.enby-green {
+    color: var(--enby-green);
+}
+
+.old-brown {
+    color: var(--old-brown);
 }
