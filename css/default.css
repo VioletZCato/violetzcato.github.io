@@ -1,5 +1,5 @@
 :root {
-    --color-scheme: dark light;
+    color-scheme: dark light;
     --background-color: light-dark(#ffffff, #000000);
     --violet: #8000ff;
     --zara: #ff8000;
@@ -12,16 +12,16 @@
 }
 
 h1 {
-    font-size: 16rem;
+    font-size: 5rem;
     text-align: center; 
 }
 
 h2 {
-    font-size: 8rem;
+    font-size: 4rem;
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-decoration: underline;
 }
 
