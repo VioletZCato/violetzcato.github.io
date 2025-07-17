@@ -145,8 +145,12 @@ h4 {
     color: var(--zara);
     font-family: "Cutive Mono", monospace;
 
-    /* sizing fixes */
+    /* sizing fix */
     font-size: 5.75rem;
+
+    /* spacing fix */
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .dot {
@@ -154,7 +158,7 @@ h4 {
     color: var(--zara);
     font-family: "Lexend Deca", sans-serif;
 
-    /* sizing fixes */
+    /* sizing fix */
     font-size: 4.25rem;
 }
 
@@ -162,7 +166,4 @@ h4 {
     /* .cato && .roman */
     color: var(--cato);
     font-family: "EB Garamond", serif;
-
-    /* sizing fixes */
-    font-size: 5rem;
 }
