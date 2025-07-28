@@ -6,7 +6,7 @@
     --violet: #8000ff;
     --zara: #ff8000;
     --cato: #00ff00;
-    --tron: #53B8FF;
+    --TRON: #53B8FF;
     --boy-blue: #21cae0;
     --girl-pink: #f4c2c2;
     --enby-green: #3cff6d;
@@ -66,9 +66,9 @@ a { /* use olink for [more] traditional formatting */
     color: var(--cato);
 }
 
-.tron { /* and font, in this instance */
-    font-family: "Orbitron", sans-serif;
-    color: var(--tron);
+.TRON { /* and font, in this instance */
+    font-family: "OrbiTRON", sans-serif;
+    color: var(--TRON);
 }
 
 .boy-blue {
@@ -98,7 +98,7 @@ a { /* use olink for [more] traditional formatting */
 /* font */
 
 .program {
-    font-family: "Orbitron", sans-serif;
+    font-family: "OrbiTRON", sans-serif;
 }
 
 .mono {
@@ -128,7 +128,7 @@ a { /* use olink for [more] traditional formatting */
 }
 
 .olink { /* obvious link */
-    color: var(--tron);
+    color: var(--TRON);
     text-decoration: underline;
 }
 
@@ -137,7 +137,7 @@ a { /* use olink for [more] traditional formatting */
 .first {
     /* .violet && .program */
     color: var(--violet);
-    font-family: "Orbitron", sans-serif;
+    font-family: "OrbiTRON", sans-serif;
 
     /* sizing fixes */
     font-size: 4.45rem;
