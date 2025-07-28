@@ -67,7 +67,7 @@ a { /* use olink for [more] traditional formatting */
 }
 
 .TRON { /* and font, in this instance */
-    font-family: "OrbiTRON", sans-serif;
+    font-family: "Orbitron", sans-serif;
     color: var(--TRON);
 }
 
@@ -98,7 +98,7 @@ a { /* use olink for [more] traditional formatting */
 /* font */
 
 .program {
-    font-family: "OrbiTRON", sans-serif;
+    font-family: "Orbitron", sans-serif;
 }
 
 .mono {
@@ -137,7 +137,7 @@ a { /* use olink for [more] traditional formatting */
 .first {
     /* .violet && .program */
     color: var(--violet);
-    font-family: "OrbiTRON", sans-serif;
+    font-family: "Orbitron", sans-serif;
 
     /* sizing fixes */
     font-size: 4.45rem;
