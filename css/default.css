@@ -119,6 +119,12 @@ a { /* use olink for [more] traditional formatting */
     text-align: center;
 }
 
+.centered-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .underline {
     text-decoration: underline;
 }
