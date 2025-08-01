@@ -170,18 +170,3 @@ a { /* use olink for [more] traditional formatting */
     color: var(--cato);
     font-family: "EB Garamond", serif;
 }
-
-.columnized {
-    text-align: left;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-}
-
-.linked_list {
-    /* .olink && spacing */
-    color: var(--TRON);
-    text-decoration: underline;
-    text-align: center;
-    margin-left: 1em;
-    margin-right: 1em;
-}
